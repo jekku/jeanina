@@ -1,3 +1,7 @@
+#ifndef LINKED_LIST_H
+#define LINKED_LIST_H
+
+#include "element.h"
 #include <stdio.h>
 
 class LinkedList {
@@ -75,4 +79,6 @@ class LinkedList {
             printf("\n");
         }
 };
+
+#endif
 

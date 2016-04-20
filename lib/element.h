@@ -1,3 +1,6 @@
+#ifndef ELEMENT_H
+#define ELEMENT_H
+
 #include <stdlib.h>
 
 class Element {
@@ -23,4 +26,6 @@ class Element {
             return this->next;
         }
 };
+
+#endif ELEMENT_H
 

@@ -1,3 +1,7 @@
+#ifndef STACK_H
+#define STACK_H
+
+#include "element.h"
 #include <stdio.h>
 
 class Stack {
@@ -49,4 +53,6 @@ class Stack {
             printf("\n");
         }
 };
+
+#endif STACK_H
 

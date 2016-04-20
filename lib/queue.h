@@ -1,3 +1,7 @@
+#ifndef QUEUE_H
+#define QUEUE_H
+
+#include "element.h"
 #include <stdio.h>
 
 class Queue {
@@ -51,4 +55,6 @@ class Queue {
             printf("\n");
         }
 };
+
+#endif QUEUE_H
 
